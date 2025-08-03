@@ -1,0 +1,238 @@
+body{
+    background-image: url(red.webp);
+}
+audio{
+   opacity: 0%;
+}
+.container1{
+    position: relative;
+    width: 350px;
+    background-color: rgba(255, 0, 0, 0.363);
+    backdrop-filter: blur(4);
+    height: 320px;
+    border-right: 1px solid rgb(255, 0, 0);
+    border-radius:  0px 40px 30px 0px;
+    box-shadow: 0em 1em 5em inset rgb(255, 34, 34);
+
+    animation-name: con;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@keyframes con{
+    from{
+        transform: translate(-200px, 0px);
+        box-shadow: 0px 2px 2px 2px rgb(255, 0, 0);
+    }
+    to{
+        box-shadow: 0px 5px 5px 2px black ;
+    }
+}
+.container1 img{
+    position: absolute;
+    bottom: 50px;
+
+    animation-name: img;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+@keyframes img{
+    0%{
+       scale: 0.10; 
+               border-radius: 100px;
+
+    }
+    66%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360deg);
+       
+    }
+}
+.container1 hr{
+    position: absolute;
+    bottom: 30px;
+    width: 265px;
+
+    animation-name: hr;
+    animation-duration: 3s;
+    
+}
+@keyframes hr{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 265px;
+    }
+}
+
+.container1 .Title{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-shadow: 0px 3px 3px black;
+
+    animation-name: Title;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+
+}
+.container1 .Title::after{
+    content: '';
+    border-right: 2px solid white;
+    padding-left: 10px;
+}
+
+@keyframes Title{
+    from{
+        opacity: 0.2;
+        transform: translate(-100px, 0px);
+
+    }
+    to{
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 3px 3px rgb(116, 192, 255);
+    }
+}
+.L-container{
+    padding: 50px;
+    font-size: 30px;
+}
+.L1{
+    border-right: 4px solid white;
+    padding-right: 10px;
+   opacity: 0%;
+
+    animation-name: num1;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes num1{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        color: black;    
+    }
+    55%{
+     color: white;
+     opacity: 100%;
+    }
+}
+.L2{
+     border-right: 4px solid white;
+    padding-right: 10px;
+   opacity: 0%;
+
+    animation-name: num2;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes num2{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        color: black;    
+    }
+    55%{
+     color: white;
+     opacity: 100%;
+    }
+}
+.L3{
+     border-right: 4px solid white;
+    padding-right: 10px;
+   opacity: 0%;
+
+    animation-name: num2;
+    animation-delay: 7s;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes num3{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        color: black;    
+    }
+    55%{
+     color: white;
+     opacity: 100%;
+    }
+}
+.L4{
+     border-right: 4px solid white;
+    padding-right: 10px;
+   opacity: 0%;
+
+    animation-name: num4;
+    animation-delay: 10s;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes num4{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        color: black;    
+    }
+    55%{
+     color: white;
+     opacity: 100%;
+    }
+}
+.L5{
+     border-right: 4px solid white;
+    padding-right: 10px;
+   opacity: 0%;
+
+    animation-name: num5;
+    animation-delay: 16s;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+}
+@keyframes num5{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        color: black;    
+    }
+    55%{
+     color: white;
+     opacity: 100%;
+    }
+}
+.L6{
+     border-right: 4px solid white;
+    padding-right: 10px;
+   opacity: 0%;
+
+    animation-name: num6;
+    animation-delay: 21s;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes num6{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        color: black;    
+    }
+    55%{
+     color: white;
+     opacity: 100%;
+    }
+}
